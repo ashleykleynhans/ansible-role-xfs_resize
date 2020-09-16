@@ -1,0 +1,10 @@
+galaxy_info:
+  author: Ashley Kleynhans
+  description: Ansible role to resize xfs volumes managed by LVM
+  license: GPLv2
+  min_ansible_version: 2.9
+  galaxy_tags:
+    - system
+    - storage
+    - lvm
+dependencies: []
