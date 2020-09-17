@@ -1,0 +1,5 @@
+---
+
+- name: 'Resize mount point {{ item.mount_point }} to {{ item.size }}'
+  shell: '/usr/sbin/xfs_growfs {{ item.mount_point }}'
+  loop: '{{ storage_pool.volumes }}'

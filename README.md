@@ -9,7 +9,7 @@ Ansible role to resize xfs volumes managed by LVM.
 
 ## Role Variables
 
-TODO
+storage_pools - list of storage pools (used with the linux system roles storage role).
 
 ## Dependencies
 

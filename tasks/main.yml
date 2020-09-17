@@ -1,1 +1,7 @@
 ---
+
+- name: Iterate over each storage pool item
+  include_tasks: resize.yml
+  loop: '{{ storage_pools }}'
+  loop_control:
+    loop_var: storage_pool
