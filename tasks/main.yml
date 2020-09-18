@@ -5,3 +5,4 @@
   loop: '{{ storage_pools }}'
   loop_control:
     loop_var: storage_pool
+  when: storage_pools is defined
